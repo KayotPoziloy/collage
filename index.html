@@ -8,8 +8,18 @@
   </head>
   <body>
     <div class="palette">
-      <label for="color">Выберите цвет</label>
-      <input id="myColor" type="color" />
+      <div class="changeColorContainer">
+        <label for="brushColor">Color</label>
+        <input type="color" id="brushColor" />
+      </div>
+      <div class="chooseBrushContainer">
+        <label for="imageBrush">Image?</label>
+        <input type="checkbox" id="imageBrush" />
+      </div>
+      <div class="changeBrushSizeContainer">
+        <label for="brushSize">Brush size</label>
+        <input type="range" id="brushSize" />
+      </div>
     </div>
     <canvas></canvas>
   </body>
