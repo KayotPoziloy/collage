@@ -20,9 +20,10 @@ body {
   align-items: center;
 }
 
-canvas {
+#scrollCanvas {
   cursor: crosshair;
   background-color: white;
+  /* overflow: auto; */
 }
 
 .palette {

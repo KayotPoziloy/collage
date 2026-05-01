@@ -18,10 +18,10 @@
       </div>
       <div class="changeBrushSizeContainer">
         <label for="brushSize">Brush size</label>
-        <input type="range" id="brushSize" />
+        <input type="range" id="brushSize" min="1" max="1000" />
       </div>
     </div>
-    <canvas></canvas>
+    <canvas id="scrollCanvas" width="2000" height="1500"></canvas>
   </body>
 
   <script src="index.js"></script>
